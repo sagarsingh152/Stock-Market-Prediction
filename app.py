@@ -4,7 +4,7 @@ from prediction import predict_stock_price
 
 st.title("AI Powered Stock Market Prediction")
 
-ticker = st.text_input("Enter Stock Ticker (Example: AAPL)")
+ticker = st.text_input("Enter the Stock Ticker (Example: AAPL)")
 
 if st.button("Get Price"):
     if ticker:
